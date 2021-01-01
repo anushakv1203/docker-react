@@ -1,26 +1,14 @@
 {
-<<<<<<< HEAD
   "name": "frontend",
-=======
-  "name": "client",
->>>>>>> 6f3ff1f3445e2b4b8fa856cec444dba48ae45e99
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
-<<<<<<< HEAD
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3"
-=======
-    "@testing-library/react": "^9.4.1",
-    "@testing-library/user-event": "^7.2.1",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
-    "react-scripts": "3.4.0"
->>>>>>> 6f3ff1f3445e2b4b8fa856cec444dba48ae45e99
   },
   "scripts": {
     "start": "react-scripts start",
