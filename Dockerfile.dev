@@ -7,4 +7,8 @@ RUN npm install
 
 COPY . .
 
+<<<<<<< HEAD
 CMD ["npm", "run", "start"]
+=======
+CMD ["npm","run","start"]
+>>>>>>> 6f3ff1f3445e2b4b8fa856cec444dba48ae45e99

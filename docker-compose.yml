@@ -1,5 +1,6 @@
 version: '3'
 services:
+<<<<<<< HEAD
   web:
     stdin_open: true
     environment:
@@ -21,3 +22,14 @@ services:
       - /app/node_modules
       - .:/app
     command: ['npm', 'run', 'test']
+=======
+   web:
+      build: 
+         context: .
+         dockerfile: Dockerfile.dev
+      ports:
+         - "3000:3000"
+      volumes:
+         - /app/node_modules
+         - .:/app
+>>>>>>> 6f3ff1f3445e2b4b8fa856cec444dba48ae45e99
